@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(33, 30, 50);
+    margin: 0; /* Remove default body margin */
+    background: url(1.gif) no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.199);
+    backdrop-filter: blur(5px);
+    width: 80%; /* Adjust container width as needed */
+    width: 400px;
+    height: auto;
+    margin: auto;
+    margin-top: 150px;
+    padding: 20px; /* Add padding to the container */
+    box-sizing: border-box; /* Include padding and border in the total width and height */
+}
+
+.calculator-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    background-color: aqua;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding and border in the total width and height */
+}
+
+button {
+    width: auto;
+    padding: 10px;
+    background-color: lime;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+button:last-child {
+    grid-column: span 3;
+}
+
+input {
+    text-align: end;
+    font-size: xx-large;
+    backdrop-filter: blur(10px);
+    width: 98.2%;
+}
