@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+header{
+    color: rgb(14, 206, 165);
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    border: solid 5px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+#TaskLabel{
+    color: white;
+}
+#Add-Tasks{
+    border: solid 5px white;
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: xx-large;
+    padding:50px;
+}
+#Display-Tasks{
+    border: solid 5px white;
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    display: flex;
+}
+.Pending-Tasks{
+    width: 50%;
+    text-align: center;
+}
+.Completed-Tasks{
+    width: 50%;
+    text-align: center;
+    border-left: solid red;
+}
+#AddButton{
+    font-size: x-large;
+    background-color: #0eff16;
+}
+#AddButton:hover {
+    background-color: #28bb2d;
+}
+hr{
+    border-color: red;
+}
+.Pending-Tasks li,.Completed-Tasks li{
+    font-size: 18px;
+}
+.tick-button{
+    background-color: #2ecc71; /* Green color for tick button */
+}
+
+.cross-button{
+    background-color: #e74c3c;
+}

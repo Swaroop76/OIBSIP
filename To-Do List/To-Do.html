@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="To-Do.css">
+    <script src="To-Do.js"></script>
+</head>
+<body>
+    <header><b>Basic To-Do List</b></header>
+    <div class="content">
+        <div id="Add-Tasks">
+            <form id="taskForm">
+                <label id="TaskLabel" for="TaskName">Name of the Task</label> <br>
+                <input type="text" id="taskInput" placeholder=" What's on your mind?" style="font-size: x-large;">
+                <button id="AddButton" type="button">Add</button>
+            </form>
+        </div>
+        
+        <div id="Display-Tasks">
+            <div class="Pending-Tasks">
+                <h1>Pending-Tasks</h1>
+                <ul id="pendingList"></ul>
+            </div>
+            <div class="Completed-Tasks">
+                <h1>Completed-Tasks</h1>
+                <ul id="completedList"></ul>
+            </div>
+        </div>
+    </div>
+    </body>
+    </html>
